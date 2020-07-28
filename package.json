@@ -1,0 +1,26 @@
+{
+  "name": "trans4m",
+  "version": "0.0.1",
+  "description": "Generate a static web site by a matching transformer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eobrain/trans4m.git"
+  },
+  "keywords": [
+    "template",
+    "xslt",
+    "static",
+    "web",
+    "site"
+  ],
+  "author": "Eamonn O'Brien-Strain",
+  "license": "EPL-1.0",
+  "bugs": {
+    "url": "https://github.com/eobrain/trans4m/issues"
+  },
+  "homepage": "https://github.com/eobrain/trans4m#readme"
+}
