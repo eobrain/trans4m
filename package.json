@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/eobrain/trans4m/issues"
   },
-  "homepage": "https://github.com/eobrain/trans4m#readme"
+  "homepage": "https://github.com/eobrain/trans4m#readme",
+  "devDependencies": {
+    "ava": "^3.11.0"
+  }
 }
