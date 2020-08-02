@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Generate a static web site by a matching transformer.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "ava"
   },
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/eobrain/trans4m#readme",
   "devDependencies": {
     "ava": "^3.11.0"
+  },
+  "dependencies": {
+    "tmp": "^0.2.1"
   }
 }

@@ -1,0 +1,45 @@
+<tmmplate>
+    <directory>
+        <file name="index.html">
+            <html>
+
+            <head>
+                <title>{{index.title}}</title>
+            </head>
+
+            <body>
+                <p>This is the home page.</p>
+                <ul>
+                    <li class="post-link" APPLY="posts" />
+                </ul>
+            </body>
+
+            </html>
+        </file>
+        <directory name="posts">
+            <file class="post" APPLY="posts" />
+        </directory>
+    </directory>
+
+    <li class="post-link">
+        <a href="/posts/{{name}}.html">{{data[0].h1}}</a>
+    </li>
+
+    <file class="post" name="{{name}}.html">
+        <html>
+
+        <head>
+            <title>{{data[0].h1}}</title>
+        </head>
+
+        <body>
+            <_ APPLY="data" />
+        </body>
+
+        </html>
+    </file>
+
+    <p>
+        {{.}}
+    </p>
+</tmmplate>
