@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/eobrain/trans4m#readme",
   "devDependencies": {
-    "ava": "^3.11.0"
+    "ava": "^5.2.0"
   },
   "dependencies": {
     "tmp": "^0.2.1"
